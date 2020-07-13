@@ -3,11 +3,11 @@ Request Multiple Urls
 
 Fetches an array of URLs containing JSON data and returns their contents in a promise
 
-## Installation
+## Installation Steps
 Run the the below command in the terminal
 ```
-npm install     //To install the dependencies
-npm start
+1: npm install     //To install the dependencies
+2: npm start
 
 ```
 
