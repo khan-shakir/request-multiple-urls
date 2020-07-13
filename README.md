@@ -29,6 +29,10 @@ Run the the below command in the terminal
 
   `npm test`
 
+## Error handling
+If response is OK, function returns object with properties: status, statusCode, url & body.
+
+If response status of url is not OK, it will reject the promise 
 
 ## Dependencies
 
