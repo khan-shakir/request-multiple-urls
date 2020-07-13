@@ -1,0 +1,15 @@
+{
+  "name": "request-multiple-urls-ft",
+  "version": "1.0.0",
+  "description": "Fetches an array of URLs containing JSON data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shakir Khan",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
