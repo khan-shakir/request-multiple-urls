@@ -6,7 +6,8 @@ Fetches an array of URLs containing JSON data and returns their contents in a pr
 ## Installation
 Run the the below command in the terminal
 ```
-npm install
+npm install     //To install the dependencies
+npm start
 
 ```
 
@@ -33,4 +34,4 @@ npm install
 
 ### node-fetch
 
-```node-fetch ``` makes use of minimal code for a window.fetch compatible API on Node.js runtime. It uses native Node streams for body, on both request and response. Also, it uses native promise, but allow substituting it with [insert your favorite promise library].
+```node-fetch ``` Instead of implementing XMLHttpRequest in Node.js to run browser-specific Fetch polyfill, why not go from native http to fetch API directly? Hence node-fetch, makes use of minimal code for a window.fetch compatible API on Node.js runtime. It uses native Node streams for body, on both request and response. Also, it uses native promise, but allow substituting it with [insert your favorite promise library].
